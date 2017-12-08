@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Stock Charts</string>
+    <string name="enter_stock_symbol">Enter stock symbol</string>
+    <string name="show_chart">Show Chart</string>
+    <string name="data_from">Data from</string>
+    <string name="https_iextrading_com_api_exhibit_a">https://iextrading.com/api-exhibit-a</string>
+</resources>
