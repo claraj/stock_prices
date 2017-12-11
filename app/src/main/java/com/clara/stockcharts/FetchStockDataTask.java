@@ -69,7 +69,7 @@ public class FetchStockDataTask extends AsyncTask<String, Void, List<StockPriceP
 
 				if (code != 200) {    // for all other possible responses, to catch other errors
 					Log.e(TAG, "Error response from server, response code = " + code);
-					exception = new StockDataQueryFailedException(StockDataQueryFailedException.ERR_BAD_RESONSE);
+					exception = new StockDataQueryFailedException(StockDataQueryFailedException.ERR_BAD_RESPONSE);
 					return null;
 				}
 
